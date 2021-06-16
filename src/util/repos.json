@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Password-Generator",
+        "repo_url": "https://github.com/takolad/Password-Generator",
+        "deploy_url": "https://takolad.github.io/Password-Generator/",
+        "img": "https://raw.githubusercontent.com/takolad/Password-Generator/main/Assets/03-javascript-homework-demo.png"
+    },
+    {
+        "id": 2,
+        "name": "code-quiz",
+        "repo_url": "https://github.com/takolad/code-quiz",
+        "deploy_url": "https://takolad.github.io/code-quiz/",
+        "img": "https://raw.githubusercontent.com/takolad/code-quiz/main/assets/images/index_q.png"
+    },
+    {
+        "id": 3,
+        "name":"Work_Day_Scheduler",
+        "repo_url": "https://github.com/takolad/Work_Day_Scheduler",
+        "deploy_url": "https://takolad.github.io/Work_Day_Scheduler/",
+        "img": "https://raw.githubusercontent.com/takolad/Work_Day_Scheduler/main/assets/images/schedule_img1.png"
+    },
+    {
+        "id": 4,
+        "name": "weather_dashboard",
+        "repo_url": "https://github.com/takolad/weather_dashboard",
+        "deploy_url": "https://takolad.github.io/weather_dashboard/",
+        "img": "https://raw.githubusercontent.com/takolad/weather_dashboard/main/assets/images/screen1.png"
+    },
+    {
+        "id": 5,
+        "name": "note-taker",
+        "repo_url": "https://github.com/takolad/note-taker",
+        "deploy_url": "https://whispering-wave.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/note-taker/main/public/assets/images/img-note_taker.png"
+    },
+    {
+        "id": 6,
+        "name": "tech-blog",
+        "repo_url": "https://github.com/takolad/tech-blog",
+        "deploy_url": "https://lit-castle-83748.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/tech-blog/main/assets/images/site-img.png"
+    },
+    {
+        "id": 7,
+        "name": "budget-tracker",
+        "repo_url": "https://github.com/takolad/budget-tracker",
+        "deploy_url": "https://budget-citadel-90310.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/budget-tracker/main/public/assets/images/site-img.png"
+    },
+    {
+        "id": 8,
+        "name": "employee-directory",
+        "repo_url": "https://github.com/takolad/employee-directory",
+        "deploy_url": "https://takolad.github.io/employee-directory/",
+        "img": "https://raw.githubusercontent.com/takolad/employee-directory/main/assets/images/img-default.png"
+    }
+]
