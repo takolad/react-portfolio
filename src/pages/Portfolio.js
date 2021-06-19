@@ -15,26 +15,25 @@ function Portfolio() {
   }, []);
 
   // res.data.html_url
-  function loadReadMes(repoNames) {
+  function loadReadMes(repos) {
     // API.getReadMe(repoNames)
     //   .then((res) => console.log(res))
     //   .catch((err) => console.log(err));
-    console.log("loadReadMes called");
   }
 
   return (
     <Container fluid>
-      <Row>
-        Projects
-        <Col size="md-6">
-          {"Projects Go Here!"}
-          <Project></Project>
-        </Col>
-        <Col size="md-6 sm-12">
-          Projects Go Here!
-          <Project></Project>
-        </Col>
-      </Row>
+      {repos.length ? (
+        <Row>
+          <Col size="md-6 sm-12">
+            {repos.map((repo) => (
+              <Project key={repo.id} props={repo} />
+            ))}
+          </Col>
+        </Row>
+      ) : (
+        <h3>{"No Projects Found :("}</h3>
+      )}
     </Container>
   );
 }

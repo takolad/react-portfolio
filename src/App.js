@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Portfolio from "./pages/Portfolio";
+import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -11,7 +12,12 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/react-portfolio/" component={Portfolio} />
+          <Route
+            exact
+            path="/react-portfolio/portfolio"
+            component={Portfolio}
+          />
+          <Route exact path="/react-portfolio/" component={Home} />
           <Route exact path="/react-portfolio/:id" component={Detail} />
         </Switch>
         <Footer />

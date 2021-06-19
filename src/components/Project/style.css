@@ -1,0 +1,9 @@
+img {
+  width: 500px;
+}
+
+.project-container {
+  margin: 0 0 4rem 2rem;
+  background-color: silver;
+  padding: 2rem;
+}

@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+body {
+  background-color: grey;
+}
+
 button {
   font-size: 2em;
   border: 0;

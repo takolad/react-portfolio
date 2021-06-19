@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "name": "Password-Generator",
-        "repo_url": "https://github.com/takolad/Password-Generator",
-        "deploy_url": "https://takolad.github.io/Password-Generator/",
-        "img": "https://raw.githubusercontent.com/takolad/Password-Generator/main/Assets/03-javascript-homework-demo.png"
+        "name": "employee-directory",
+        "repo_url": "https://github.com/takolad/employee-directory",
+        "deploy_url": "https://takolad.github.io/employee-directory/",
+        "img": "https://raw.githubusercontent.com/takolad/employee-directory/main/assets/images/img-default.png"
     },
     {
         "id": 2,
-        "name": "code-quiz",
-        "repo_url": "https://github.com/takolad/code-quiz",
-        "deploy_url": "https://takolad.github.io/code-quiz/",
-        "img": "https://raw.githubusercontent.com/takolad/code-quiz/main/assets/images/index_q.png"
+        "name": "budget-tracker",
+        "repo_url": "https://github.com/takolad/budget-tracker",
+        "deploy_url": "https://budget-citadel-90310.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/budget-tracker/main/public/assets/images/site-img.png"
     },
     {
         "id": 3,
@@ -40,19 +40,5 @@
         "repo_url": "https://github.com/takolad/tech-blog",
         "deploy_url": "https://lit-castle-83748.herokuapp.com/",
         "img": "https://raw.githubusercontent.com/takolad/tech-blog/main/assets/images/site-img.png"
-    },
-    {
-        "id": 7,
-        "name": "budget-tracker",
-        "repo_url": "https://github.com/takolad/budget-tracker",
-        "deploy_url": "https://budget-citadel-90310.herokuapp.com/",
-        "img": "https://raw.githubusercontent.com/takolad/budget-tracker/main/public/assets/images/site-img.png"
-    },
-    {
-        "id": 8,
-        "name": "employee-directory",
-        "repo_url": "https://github.com/takolad/employee-directory",
-        "deploy_url": "https://takolad.github.io/employee-directory/",
-        "img": "https://raw.githubusercontent.com/takolad/employee-directory/main/assets/images/img-default.png"
     }
 ]
