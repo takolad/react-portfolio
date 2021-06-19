@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.80e5288f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.6f833434.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6f833434.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.e2871366.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e2871366.js.map",
+    "static/js/2.d69bcb4e.chunk.js": "/react-portfolio/static/js/2.d69bcb4e.chunk.js",
+    "static/js/2.d69bcb4e.chunk.js.map": "/react-portfolio/static/js/2.d69bcb4e.chunk.js.map",
+    "static/js/3.0cac65eb.chunk.js": "/react-portfolio/static/js/3.0cac65eb.chunk.js",
+    "static/js/3.0cac65eb.chunk.js.map": "/react-portfolio/static/js/3.0cac65eb.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.80e5288f.chunk.css.map": "/react-portfolio/static/css/main.80e5288f.chunk.css.map",
+    "static/js/2.d69bcb4e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d69bcb4e.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/react-portfolio/static/media/matthew-lejune-IpvDhQjrewM-unsplash.316b9b8a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2871366.js",
+    "static/js/2.d69bcb4e.chunk.js",
+    "static/css/main.80e5288f.chunk.css",
+    "static/js/main.6f833434.chunk.js"
+  ]
+}
