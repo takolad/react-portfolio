@@ -1,5 +1,5 @@
 .card {
-  background-image: url("../../assets/images/matthew-lejune-IpvDhQjrewM-unsplash.jpg");
+  background-image: url("../../assets/images/self-img.jpg");
   background-size: cover;
   background-position: center;
   background-clip: content-box;
@@ -18,4 +18,11 @@
   position: absolute;
   left: 25%;
   top: 25%;
+}
+
+.card-body {
+  position: aboslute;
+  bottom: 0;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
 }
