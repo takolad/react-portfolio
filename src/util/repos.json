@@ -15,10 +15,10 @@
     },
     {
         "id": 3,
-        "name":"Work_Day_Scheduler",
-        "repo_url": "https://github.com/takolad/Work_Day_Scheduler",
-        "deploy_url": "https://takolad.github.io/Work_Day_Scheduler/",
-        "img": "https://raw.githubusercontent.com/takolad/Work_Day_Scheduler/main/assets/images/schedule_img1.png"
+        "name": "google-books-search",
+        "repo_url": "https://github.com/takolad/google-books-search",
+        "deploy_url": "https://books-search-reactionary.herokuapp.com/",
+        "img": "https://raw.githubusercontent.com/takolad/google-books-search/main/assets/images/site-img.png"
     },
     {
         "id": 4,
