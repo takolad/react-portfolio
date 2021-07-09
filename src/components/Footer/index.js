@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="fixed-bottom footer">
       <span>&copy; Copyright {new Date().getFullYear()} John Hinojosa</span>
     </footer>
   );

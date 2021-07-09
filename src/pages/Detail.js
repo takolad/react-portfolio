@@ -13,15 +13,27 @@ function Detail() {
   return (
     <Container>
       <Row>
-        <Col size="md-8 sm-12">
+        <Col size="12">
           <h3>{targetRepo[0].name}</h3>
           <div className="project-body">
             <img alt={imgAlt} src={targetRepo[0].img} />
           </div>
           <div className="project-links">
-            <a href={targetRepo[0].deploy_url}>Deployed Site</a>
+            {targetRepo[0].deploy_url ? (
+              <a
+                href={targetRepo[0].deploy_url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Deployed Site
+              </a>
+            ) : (
+              "No deployed link yet available"
+            )}
             <br />
-            <a href={targetRepo[0].repo_url}>Repository Link</a>
+            <a href={targetRepo[0].repo_url} target="_blank" rel="noreferrer">
+              Repository Link
+            </a>
           </div>
         </Col>
       </Row>

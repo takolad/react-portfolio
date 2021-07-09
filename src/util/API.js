@@ -2,32 +2,29 @@
 import axios from "axios";
 
 export default {
-  getReadMe: async function (repo) {
-    // repo is an array of strings (repo name)
-    const requests = [];
-    for (let i = 0; i < repo.length; i++) {
-      requests.push(
-        axios.get(`https://api.github.com/repos/{owner}/${repo[i]}/readme`),
-        {
-          owner: "takolad",
-        }
-      );
-    }
-    await axios
-      .all(requests)
-      .then(
-        axios.spread(function (...res) {
-          return res;
-        })
-      )
-      .catch((err) => console.log(err));
+  getReadMe: function (repo) {
+    return new Promise((resolve, reject) => {
+      // repo is an array of strings (repo name)
+      const repos = repo;
+      const owner = "takolad";
+      const requests = repos.map((repo, idx) => {
+        return axios.get(
+          `https://api.github.com/repos/${owner}/${repo.name}/readme`
+        );
+      });
+      axios
+        .all(requests)
+        .then(
+          axios.spread(function (...res) {
+            const mapped = res.map((readme) => {
+              return {
+                html_url: readme.data.html_url,
+              };
+            });
+            resolve(mapped);
+          })
+        )
+        .catch((err) => console.log(err));
+    });
   },
 };
-
-//     return axios
-//       .all("https://api.github.com/repos/{owner}/{repo}/readme", {
-//         owner: "takolad",
-//         repo,
-//       })
-//       .catch((err) => console.log(err));
-//   },

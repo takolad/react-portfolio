@@ -2,6 +2,7 @@
   background-image: url("../../assets/images/self-img.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   background-clip: content-box;
   border: 6px solid white;
   height: 400px;

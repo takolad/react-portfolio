@@ -14,7 +14,7 @@ function Home() {
     <Container>
       <Card content={props} />
       <Row>
-        <Link to="/react-portfolio/portfolio">View Portfolio</Link>
+        <Link to="/portfolio">View Portfolio</Link>
       </Row>
     </Container>
   );

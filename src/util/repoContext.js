@@ -6,6 +6,8 @@ const RepoContext = React.createContext({
   repo_url: "",
   deploy_url: "",
   img: "",
+  type: "",
+  description: "",
 });
 
 export default RepoContext;
