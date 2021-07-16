@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Portfolio from "./pages/Portfolio";
 import Home from "./pages/Home";
@@ -15,7 +15,7 @@ import {
 function App() {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <Switch>
         <Route exact path="/react-portfolio/" component={Home} />
         <Route exact path="/react-portfolio/home" component={Home} />
