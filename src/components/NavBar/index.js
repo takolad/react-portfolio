@@ -22,7 +22,7 @@ function NavBar() {
             <Nav.Link
               target="_blank"
               rel="noreferrer"
-              href="href=https://github.com/takolad"
+              href="https://github.com/takolad"
             >
               GitHub Profile
             </Nav.Link>
