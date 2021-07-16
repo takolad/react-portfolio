@@ -14,9 +14,15 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/react-portfolio/">Home</Nav.Link>
-            <Nav.Link href="/react-portfolio/portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/react-portfolio/contact">Contact</Nav.Link>
+            <Link className="nav-link" to="/react-portfolio/">
+              Home
+            </Link>
+            <Link className="nav-link" to="/react-portfolio/portfolio">
+              Portfolio
+            </Link>
+            <Link className="nav-link" to="/react-portfolio/contact">
+              Contact
+            </Link>
           </Nav>
           <Nav className="ms-auto">
             <Nav.Link
