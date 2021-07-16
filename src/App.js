@@ -17,13 +17,13 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/portfolio/:id" component={Detail} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/react-portfolio/" component={Home} />
+        <Route exact path="/react-portfolio/home" component={Home} />
+        <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+        <Route exact path="/react-portfolio/portfolio/:id" component={Detail} />
+        <Route exact path="/react-portfolio/contact" component={Contact} />
         <Route path="*">
-          <Redirect to="/" />
+          <Redirect to="/react-portfolio/" />
         </Route>
       </Switch>
       <Footer />

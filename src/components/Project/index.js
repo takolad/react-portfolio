@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Project({ props }) {
   let altTxt = props.name + " screenshot";
-  let linkTxt = `/portfolio/${props.id}`;
+  let linkTxt = `/react-portfolio/portfolio/${props.id}`;
   return (
     <div className="project-container">
       <h2>{props.name}</h2>

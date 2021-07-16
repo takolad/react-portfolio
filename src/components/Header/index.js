@@ -2,16 +2,15 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 
-function Header(props) {
+function Header() {
   const location = useLocation().pathname.split("/")[1];
-  console.log(location);
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
       <span className="navbar-brand ms-3">John Hinojosa's Portfolio</span>
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="/react-portfolio/">
         <span
           className={
-            location === "home"
+            location === "home" || location === ""
               ? "nav-link navbar-text active"
               : "nav-link navbar-text"
           }
@@ -19,7 +18,7 @@ function Header(props) {
           Home
         </span>
       </a>
-      <Link className="navbar-brand" to="/portfolio">
+      <Link className="navbar-brand" to="/react-portfolio/portfolio">
         <span
           className={
             location === "portfolio"
@@ -30,7 +29,7 @@ function Header(props) {
           Portfolio
         </span>
       </Link>
-      <Link className="navbar-brand" to="/contact">
+      <Link className="navbar-brand" to="/react-portfolio/contact">
         <span
           className={
             location === "contact"

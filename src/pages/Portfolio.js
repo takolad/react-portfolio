@@ -9,8 +9,8 @@ function Portfolio() {
       {repos.length ? (
         <Row>
           {repos.map((repo) => (
-            <Col size="md-6 sm-12">
-              <Project key={repo.id} props={repo} />
+            <Col key={repo.id} size="md-6 sm-12">
+              <Project props={repo} />
             </Col>
           ))}
         </Row>

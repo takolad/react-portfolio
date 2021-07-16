@@ -4,7 +4,7 @@ import ContactCard from "../components/ContactCard";
 
 function Contact() {
   return (
-    <Container>
+    <Container fluid>
       <ContactCard />
     </Container>
   );

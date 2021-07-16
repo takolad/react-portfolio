@@ -13,8 +13,8 @@ function ContactCard() {
           alt="John Hinojosa, handsome, rad, full-stack developer"
         />
       </Col>
-      <Col size="sm-8">
-        <span className="contact-info">
+      <div className="m-auto col-sm-8" style={{ height: "fit-content" }}>
+        <span className="contact-info bg-light bg-gradient p-3">
           Thank you for your time, feel free to contact me by:
           <h4>
             Email: <a href="mailto:hinojohn@ymail.com">hinojohn@ymail.com</a>
@@ -22,7 +22,7 @@ function ContactCard() {
             Google Voice: <a href="tel:737-231-0139">737-231-0139</a>
           </h4>
         </span>
-      </Col>
+      </div>
     </div>
   );
 }
