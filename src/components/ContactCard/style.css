@@ -13,5 +13,10 @@
   display: inline-grid;
   align-content: center;
   display: -ms-inline-grid;
-  display: -moz-inline-grid;
+}
+
+@-moz-document url-prefix() {
+  .contact-info {
+    position: relative;
+  }
 }

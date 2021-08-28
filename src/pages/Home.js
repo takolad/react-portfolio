@@ -5,10 +5,12 @@ import { Container } from "../components/Grid";
 
 function Home() {
   const props = {
-    heading: "Greetings!",
+    heading: "Hello there!",
     body:
-      "My name is John Hinojosa and I'm a full-stack developer " +
-      "living in San Antonio, please have a look at my portfolio!",
+      "My name is John Hinojosa and I'm a Full-Stack Developer " +
+      "living in San Antonio. I enjoy learning new technologies " +
+      "and get a kick out of solving problems! Have a look at my portfolio " +
+      "and please feel free to connect with me on LinkedIn!"
   };
   return (
     <Container fluid>
